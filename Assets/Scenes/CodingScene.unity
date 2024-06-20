@@ -372,6 +372,8 @@ MonoBehaviour:
   isMan: 0
   runState: 1
   walkState: 0
+  numbers: 20
+  endCunt: 20
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

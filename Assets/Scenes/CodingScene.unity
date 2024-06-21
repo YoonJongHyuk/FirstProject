@@ -319,6 +319,10 @@ GameObject:
   - component: {fileID: 2095014728}
   - component: {fileID: 2095014727}
   - component: {fileID: 2095014729}
+  - component: {fileID: 2095014730}
+  - component: {fileID: 2095014731}
+  - component: {fileID: 2095014732}
+  - component: {fileID: 2095014733}
   m_Layer: 0
   m_Name: TestObject
   m_TagString: Untagged
@@ -362,7 +366,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095014726}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45dd7c70ec966d94cbc2ac659f948bdc, type: 3}
   m_Name: 
@@ -374,6 +378,54 @@ MonoBehaviour:
   walkState: 0
   numbers: 20
   endCunt: 20
+--- !u!114 &2095014730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095014726}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a34498aa281be541a979ebc43b72cf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2095014731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095014726}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e3afe114dee56d4397096d30c3b5d48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2095014732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095014726}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0873bd04e679c504ca794c7073b21848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2095014733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095014726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85951a57b62ccf54285a911645eca5cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
